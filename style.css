@@ -46,9 +46,6 @@ a:link {
     color: white;
 }
 
-a{
-    
-}
 
 a:hover{
     background-color: rgba(162, 164, 166, 50%)
@@ -132,61 +129,9 @@ body {
 
 /* contacto */
 
-.imagen {
-    height: 4406px;
-    width: 664px;
-    object-fit: cover;
-    grid-row: 3 span;
-    grid-column: 1 span;
-}
-.imagen1 {
-    object-fit: cover;
-    height: 4406px;
-    width: 664px;
-    grid-row: 3 span;
-    grid-column: 1 spans;
-}
-
-.contacto-container{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    grid-template-areas: 
-    "main section span"
-    "main section span";
-}
-header{
-    grid-area: header;
-}
-nav{
-    grid-area: nav;
-}
-main{
-    grid-area: main;
-}
-footer{
-    grid-area: footer;
-}
-section{
-    grid-area: section;
-}
-span{
-    grid-area: span;
-}
-
-
-.formulario{
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    grid-template-rows: repeat(3,1fr);
-}
-
-.form {
-    grid-area: 2 / 2 / 3 / 3;
-}
-
-
-
 .contacto {
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-flow: auto;
+    
 }
