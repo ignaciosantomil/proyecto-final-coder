@@ -123,26 +123,10 @@ body {
     text-align: center;
     margin: 5px;
     height: 200px;
-    ;
     width: 200px;
 }
 
 /* contacto */
-
-.imagen {
-    height: 4406px;
-    width: 664px;
-    object-fit: cover;
-    grid-row: 3 span;
-    grid-column: 1 span;
-}
-.imagen1 {
-    object-fit: cover;
-    height: 4406px;
-    width: 664px;
-    grid-row: 3 span;
-    grid-column: 1 spans;
-}
 
 .contacto-container{
     margin: 20px;
@@ -153,4 +137,32 @@ body {
 section{
     display: flex;
     justify-content: center;
+}
+
+/* media query */
+
+@media screen and (max-width: 768px) {
+    header{ font-size: 20px;}
+    nav{ font-size: 10px;}
+    footer{ font-size: 6px;}
+    .logo{ margin-bottom: 2px;}
+    body{ font-size: 8px;}
+    .novedades{ 
+        margin: 5px;
+        border: 2px solid black;
+        height: 75px;
+        width: 375px;
+    }
+    .oferta1{ 
+        margin: 2px;
+        height: 100px;
+        width: 100px;
+    }
+    .container{ grid-template-columns: repeat(2,1fr);}
+    .camisetas{
+        margin: 2px;
+        height: 100px;
+        width: 100px;
+    }
+    .contacto-container{margin: 10px;}
 }
