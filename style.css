@@ -130,13 +130,13 @@ body {
 }
 /* actuales, retro y productos */
 
-.container {
+.container-camisetas {
     display: grid;
     grid-template-columns: repeat(5,1fr);
     grid-template-rows: auto;
 }
 
-.container img {
+.container-camisetas img {
     width: 80%;
     height: 80%;
 }
