@@ -8,6 +8,14 @@
 
 /* header, nav y footer */
 
+.header-design{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+}
+
 header {
     font-family: 'Roboto', sans-serif;
     font-size: 30px;
