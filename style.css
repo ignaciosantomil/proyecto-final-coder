@@ -8,6 +8,14 @@
 
 /* header, nav y footer */
 
+.header-design{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+}
+
 header {
     font-family: 'Roboto', sans-serif;
     font-size: 30px;
@@ -130,13 +138,13 @@ body {
 }
 /* actuales, retro y productos */
 
-.container {
+.container-camisetas {
     display: grid;
     grid-template-columns: repeat(5,1fr);
     grid-template-rows: auto;
 }
 
-.container img {
+.container-camisetas img {
     width: 80%;
     height: 80%;
 }
@@ -159,6 +167,13 @@ body {
 section{
     display: flex;
     justify-content: center;
+}
+.form{
+    display: flex;
+    align-items:center;
+}
+.caja{
+    padding-bottom: 5%;
 }
 
 /* media query */
