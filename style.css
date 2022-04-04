@@ -168,6 +168,13 @@ section{
     display: flex;
     justify-content: center;
 }
+.form{
+    display: flex;
+    align-items:center;
+}
+.caja{
+    padding-bottom: 5%;
+}
 
 /* media query */
 
