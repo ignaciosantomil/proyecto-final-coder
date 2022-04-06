@@ -1,0 +1,51 @@
+.header-design{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    color: white;
+    font-style: italic;
+    background-color: black;
+}
+
+nav {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    transition: all 0.5s ease-in;
+    background-color: black;
+}
+
+.barra {
+    display: flex;
+    justify-content: flex-end;
+}
+.buscar{
+    display: flex;
+    justify-content: flex-end;
+}
+
+ul {
+    list-style: none;
+}
+
+a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+a:link {
+    text-decoration: none;
+    color: white;
+}
+
+
+a:hover{
+    background-color: rgba(162, 164, 166, 50%)
+}
