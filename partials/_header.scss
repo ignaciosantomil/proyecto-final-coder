@@ -20,32 +20,32 @@ nav {
     font-style: normal;
     transition: all 0.5s ease-in;
     background-color: black;
+    .barra {
+        display: flex;
+        justify-content: flex-end;
+    }
+    .buscar{
+        display: flex;
+        justify-content: flex-end;
+    }
+    
+    ul {
+        list-style: none;
+    }
+    
+    a:visited {
+        color: white;
+        text-decoration: none;
+    }
+    
+    a:link {
+        text-decoration: none;
+        color: white;
+    }
+    
+    
+    a:hover{
+        background-color: rgba(162, 164, 166, 50%)
+    }
 }
 
-.barra {
-    display: flex;
-    justify-content: flex-end;
-}
-.buscar{
-    display: flex;
-    justify-content: flex-end;
-}
-
-ul {
-    list-style: none;
-}
-
-a:visited {
-    color: white;
-    text-decoration: none;
-}
-
-a:link {
-    text-decoration: none;
-    color: white;
-}
-
-
-a:hover{
-    background-color: rgba(162, 164, 166, 50%)
-}

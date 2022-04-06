@@ -33,7 +33,7 @@ nav {
   background-color: black;
 }
 
-.barra {
+nav .barra {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -42,7 +42,7 @@ nav {
           justify-content: flex-end;
 }
 
-.buscar {
+nav .buscar {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -51,22 +51,208 @@ nav {
           justify-content: flex-end;
 }
 
-ul {
+nav ul {
   list-style: none;
 }
 
-a:visited {
+nav a:visited {
   color: white;
   text-decoration: none;
 }
 
-a:link {
+nav a:link {
   text-decoration: none;
   color: white;
 }
 
-a:hover {
+nav a:hover {
   background-color: #a2a4a6;
+}
+
+.contacto-container {
+  margin: 20px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  -ms-grid-rows: auto;
+      grid-template-rows: auto;
+}
+
+section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.caja {
+  padding-bottom: 5%;
+}
+
+footer {
+  display: -ms-grid;
+  display: grid;
+  grid-area: span;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+  grid-auto-rows: auto;
+  background-color: black;
+  font-size: 12px;
+  font-style: normal;
+  color: white;
+}
+
+li {
+  display: inline;
+  padding: 10px;
+}
+
+.logo {
+  width: 10%;
+  height: 10%;
+  margin-bottom: 5px;
+}
+
+.mapa {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 3%;
+  margin: 1%;
+  height: 80%;
+  width: 80%;
+}
+
+.redes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 5%;
+  height: 5%;
+  margin: 1%;
+}
+
+/* body */
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  color: black;
+}
+
+.ofertas {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.ofertas .ofertas img {
+  width: 80%;
+  height: 80%;
+}
+
+.ofertas .oferta1 {
+  text-align: center;
+  margin: 5px;
+  height: 200px;
+  width: 200px;
+}
+
+.novedades {
+  margin: 10px;
+  border: 5px solid black;
+  height: 150px;
+  width: 750px;
+  background-color: blue;
+}
+
+/* actuales, retro y productos */
+.container-camisetas {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[5];
+      grid-template-columns: repeat(5, 1fr);
+  -ms-grid-rows: auto;
+      grid-template-rows: auto;
+}
+
+.container-camisetas .camisetas {
+  text-align: center;
+  margin: 5px;
+  height: 200px;
+  width: 200px;
+}
+
+.container-camisetas .container-camisetas img {
+  width: 80%;
+  height: 80%;
+}
+
+@media screen and (max-width: 768px) {
+  header {
+    font-size: 20px;
+  }
+  nav {
+    font-size: 10px;
+  }
+  footer {
+    font-size: 6px;
+  }
+  .logo {
+    margin-bottom: 2px;
+  }
+  body {
+    font-size: 8px;
+  }
+  .novedades {
+    margin: 5px;
+    border: 2px solid black;
+    height: 75px;
+    width: 375px;
+  }
+  .oferta1 {
+    margin: 2px;
+    height: 100px;
+    width: 100px;
+  }
+  .container {
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
+  }
+  .camisetas {
+    margin: 2px;
+    height: 100px;
+    width: 100px;
+  }
+  .contacto-container {
+    margin: 10px;
+  }
 }
 
 * {
