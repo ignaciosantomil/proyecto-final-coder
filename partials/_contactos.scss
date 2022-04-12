@@ -14,4 +14,8 @@ section{
 }
 .caja{
     padding-bottom: 5%;
+    margin: 0 auto; /* Centramos el formulario */
+   width: 300px;   /* Sin ancho no podemos centrar el formulario */
+   background-color: white; /* Color blanco para el formulario */
+   padding: 2px; /* separamos los bordes del form del resto de elementos */
 }
