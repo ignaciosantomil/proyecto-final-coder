@@ -5,12 +5,10 @@
     grid-template-rows: auto;
 }
 section{
-    display: flex;
-    justify-content: center;
+    @extend %flex;
 }
 .form{
-    display: flex;
-    align-items:center;
+    @extend %flex;
 }
 .caja{
     padding-bottom: 5%;

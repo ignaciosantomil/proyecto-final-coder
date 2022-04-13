@@ -1,6 +1,5 @@
 .header-design{
-    display: flex;
-    justify-content: center;
+    @extend %flex;
     text-align: center;
     flex-direction: column;
     align-items: center;
