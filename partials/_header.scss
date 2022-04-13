@@ -8,9 +8,9 @@
 header {
     font-family: 'Roboto', sans-serif;
     font-size: 30px;
-    color: white;
+    color: $color-alternativo;
     font-style: italic;
-    background-color: black;
+    background-color: $color-principal;
 }
 
 nav {
@@ -18,7 +18,7 @@ nav {
     font-size: 20px;
     font-style: normal;
     transition: all 0.5s ease-in;
-    background-color: black;
+    background-color: $color-principal;
     .barra {
         display: flex;
         justify-content: flex-end;
@@ -33,13 +33,13 @@ nav {
     }
     
     a:visited {
-        color: white;
+        color: $color-alternativo;
         text-decoration: none;
     }
     
     a:link {
         text-decoration: none;
-        color: white;
+        color: $color-alternativo;
     }
     
     
