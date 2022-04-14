@@ -172,7 +172,7 @@ body {
       flex-wrap: wrap;
 }
 
-.ofertas .ofertas img {
+.ofertas img {
   width: 80%;
   height: 80%;
 }
@@ -209,7 +209,7 @@ body {
   width: 200px;
 }
 
-.container-camisetas .container-camisetas img {
+.container-camisetas img {
   width: 80%;
   height: 80%;
 }
