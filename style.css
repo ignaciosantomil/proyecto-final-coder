@@ -1,14 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,400;1,900&display=swap");
-<<<<<<< HEAD
 
-=======
->>>>>>> prueba-sass
 .header-design {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-<<<<<<< HEAD
   -ms-flex-pack: center;
   justify-content: center;
   text-align: center;
@@ -19,18 +15,6 @@
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-=======
-      -ms-flex-pack: center;
-          justify-content: center;
-  text-align: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
->>>>>>> prueba-sass
 }
 
 header {
@@ -55,13 +39,8 @@ nav .barra {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: end;
-<<<<<<< HEAD
   -ms-flex-pack: end;
   justify-content: flex-end;
-=======
-      -ms-flex-pack: end;
-          justify-content: flex-end;
->>>>>>> prueba-sass
 }
 
 nav .buscar {
@@ -69,13 +48,8 @@ nav .buscar {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: end;
-<<<<<<< HEAD
   -ms-flex-pack: end;
   justify-content: flex-end;
-=======
-      -ms-flex-pack: end;
-          justify-content: flex-end;
->>>>>>> prueba-sass
 }
 
 nav ul {
@@ -101,15 +75,9 @@ nav a:hover {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 1fr 1fr;
-<<<<<<< HEAD
   grid-template-columns: 1fr 1fr;
   -ms-grid-rows: auto;
   grid-template-rows: auto;
-=======
-      grid-template-columns: 1fr 1fr;
-  -ms-grid-rows: auto;
-      grid-template-rows: auto;
->>>>>>> prueba-sass
 }
 
 section {
@@ -117,13 +85,8 @@ section {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-<<<<<<< HEAD
   -ms-flex-pack: center;
   justify-content: center;
-=======
-      -ms-flex-pack: center;
-          justify-content: center;
->>>>>>> prueba-sass
 }
 
 .form {
@@ -131,13 +94,8 @@ section {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-<<<<<<< HEAD
   -ms-flex-align: center;
   align-items: center;
-=======
-      -ms-flex-align: center;
-          align-items: center;
->>>>>>> prueba-sass
 }
 
 .caja {
@@ -173,13 +131,8 @@ li {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-<<<<<<< HEAD
   -ms-flex-pack: center;
   justify-content: center;
-=======
-      -ms-flex-pack: center;
-          justify-content: center;
->>>>>>> prueba-sass
   padding: 3%;
   margin: 1%;
   height: 80%;
@@ -192,19 +145,11 @@ li {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-<<<<<<< HEAD
   -ms-flex-direction: column;
   flex-direction: column;
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between;
-=======
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
->>>>>>> prueba-sass
   width: 5%;
   height: 5%;
   margin: 1%;
@@ -223,21 +168,12 @@ body {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: distribute;
-<<<<<<< HEAD
   justify-content: space-around;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
 }
 
-.ofertas .ofertas img {
-=======
-      justify-content: space-around;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-}
-
 .ofertas img {
->>>>>>> prueba-sass
   width: 80%;
   height: 80%;
 }
@@ -262,15 +198,9 @@ body {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: (1fr);
-<<<<<<< HEAD
   grid-template-columns: repeat(5, 1fr);
   -ms-grid-rows: auto;
   grid-template-rows: auto;
-=======
-      grid-template-columns: repeat(5, 1fr);
-  -ms-grid-rows: auto;
-      grid-template-rows: auto;
->>>>>>> prueba-sass
 }
 
 .container-camisetas .camisetas {
@@ -280,11 +210,7 @@ body {
   width: 200px;
 }
 
-<<<<<<< HEAD
-.container-camisetas .container-camisetas img {
-=======
 .container-camisetas img {
->>>>>>> prueba-sass
   width: 80%;
   height: 80%;
 }
@@ -293,7 +219,6 @@ body {
   header {
     font-size: 20px;
   }
-<<<<<<< HEAD
 
   nav {
     font-size: 10px;
@@ -311,57 +236,30 @@ body {
     font-size: 8px;
   }
 
-=======
-  nav {
-    font-size: 10px;
-  }
-  footer {
-    font-size: 6px;
-  }
-  .logo {
-    margin-bottom: 2px;
-  }
-  body {
-    font-size: 8px;
-  }
->>>>>>> prueba-sass
   .novedades {
     margin: 5px;
     border: 2px solid black;
     height: 75px;
     width: 375px;
   }
-<<<<<<< HEAD
 
-=======
->>>>>>> prueba-sass
   .oferta1 {
     margin: 2px;
     height: 100px;
     width: 100px;
   }
-<<<<<<< HEAD
 
   .container {
     -ms-grid-columns: (1fr);
     grid-template-columns: repeat(2, 1fr);
   }
 
-=======
-  .container {
-    -ms-grid-columns: (1fr);
-        grid-template-columns: repeat(2, 1fr);
-  }
->>>>>>> prueba-sass
   .camisetas {
     margin: 2px;
     height: 100px;
     width: 100px;
   }
-<<<<<<< HEAD
 
-=======
->>>>>>> prueba-sass
   .contacto-container {
     margin: 10px;
   }
@@ -371,12 +269,7 @@ body {
   margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
-<<<<<<< HEAD
   box-sizing: border-box;
 }
 
-=======
-          box-sizing: border-box;
-}
->>>>>>> prueba-sass
 /*# sourceMappingURL=style.css.map */
