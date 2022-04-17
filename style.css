@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,400;1,900&display=swap");
-.header-design, section, .form, .mapa {
+.header-design, section, .form, .mapa, .texto {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -131,6 +131,17 @@ li {
   width: 5%;
   height: 5%;
   margin: 1%;
+  margin-left: 5%;
+  margin-top: 5%;
+}
+
+.imgfooter {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 2%;
+  width: 45%;
+  height: 45%;
 }
 
 /* body */
@@ -164,12 +175,6 @@ body {
 }
 
 .texto {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
   margin: 5%;
 }
 
@@ -189,6 +194,7 @@ body {
       grid-template-columns: repeat(5, 1fr);
   -ms-grid-rows: auto;
       grid-template-rows: auto;
+  margin-top: 5%;
 }
 
 .container-camisetas .camisetas {
@@ -212,6 +218,8 @@ body {
   }
   footer {
     font-size: 6px;
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
   }
   .logo {
     margin-bottom: 2px;

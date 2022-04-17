@@ -16,8 +16,7 @@
     }
 }
 .texto{
-    display: flex;
-    justify-content: center;
+    @extend %flex;
     margin: 5%;
 }
 .novedades {
