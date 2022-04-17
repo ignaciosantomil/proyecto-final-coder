@@ -9,9 +9,11 @@
         margin-bottom: 10%;
         height: 200px;
         width: 200px;
-        a:hover{
-        border-color: black;
-    }
+        .camisetas:hover{
+            border: 10px;
+            border-radius: 5%;
+            border-color: black;
+        }
     }
     img {
         width: 80%;
