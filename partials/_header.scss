@@ -48,3 +48,10 @@ nav {
     }
 }
 
+.tamanio-carousel{
+    @extend %flex;
+    margin: 5%;
+    width: 85%;
+    height: 65%;
+    align-items: center;
+}
