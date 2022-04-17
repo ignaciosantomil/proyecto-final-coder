@@ -15,7 +15,11 @@
         width: 200px;
     }
 }
-
+.texto{
+    display: flex;
+    justify-content: center;
+    margin: 5%;
+}
 .novedades {
     margin: 10px;
     border: 5px solid $color-principal;
