@@ -1,0 +1,50 @@
+.header-design{
+    @extend %flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    color: $color-alternativo;
+    font-style: italic;
+    background-color: $color-principal;
+}
+
+nav {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    transition: all 0.5s ease-in;
+    background-color: $color-principal;
+    .barra {
+        display: flex;
+        justify-content: flex-end;
+    }
+    .buscar{
+        display: flex;
+        justify-content: flex-end;
+    }
+    
+    ul {
+        list-style: none;
+    }
+    
+    a:visited {
+        color: $color-alternativo;
+        text-decoration: none;
+    }
+    
+    a:link {
+        text-decoration: none;
+        color: $color-alternativo;
+    }
+    
+    
+    a:hover{
+        background-color: rgba(162, 164, 166, 50%)
+    }
+}
+
