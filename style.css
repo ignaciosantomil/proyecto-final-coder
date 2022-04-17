@@ -183,6 +183,20 @@ body {
   width: 200px;
 }
 
+.carousel-tittle {
+  background-color: rgba(162, 164, 166, 0.507);
+  font-weight: bold;
+  color: black;
+  font-size: 130%;
+}
+
+.carousel-p {
+  font-weight: bold;
+  background-color: rgba(162, 164, 166, 0.507);
+  color: black;
+  font-size: 100%;
+}
+
 .texto {
   margin: 5%;
 }
