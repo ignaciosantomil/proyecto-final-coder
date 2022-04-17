@@ -5,15 +5,21 @@
     margin: 5%;
     .camisetas {
         text-align: center;
-        margin: 5px;
+        margin: 8%;
+        margin-bottom: 10%;
         height: 200px;
         width: 200px;
+        a:hover{
+        border-color: black;
+    }
     }
     img {
         width: 80%;
         height: 80%;
     }
+    
 }
+
 
 
 
