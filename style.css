@@ -219,7 +219,7 @@ body {
   width: 200px;
 }
 
-.container-camisetas .camisetas .camisetas:hover {
+.container-camisetas .camisetas :hover {
   border: 10px;
   border-radius: 5%;
   border-color: black;
