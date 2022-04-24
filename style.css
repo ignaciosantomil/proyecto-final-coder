@@ -212,7 +212,7 @@ body {
 }
 
 .container-camisetas :hover {
-  border: solid 2px black;
+  border: solid 2px #949494;
   border-radius: 5%;
 }
 
