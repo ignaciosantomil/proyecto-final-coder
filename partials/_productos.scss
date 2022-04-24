@@ -3,17 +3,18 @@
     grid-template-columns: repeat(5,1fr);
     grid-template-rows: auto;
     margin: 5%;
+    :hover{
+            border: solid 2px black;
+            border-radius: 5%;
+            
+        }
     .camisetas {
         text-align: center;
         margin: 8%;
         margin-bottom: 10%;
         height: 200px;
         width: 200px;
-        :hover{
-            border: solid 2px black;
-            border-radius: 5%;
-            
-        }
+        
     }
     img {
         width: 80%;

@@ -211,17 +211,17 @@ body {
   margin: 5%;
 }
 
+.container-camisetas :hover {
+  border: solid 2px black;
+  border-radius: 5%;
+}
+
 .container-camisetas .camisetas {
   text-align: center;
   margin: 8%;
   margin-bottom: 10%;
   height: 200px;
   width: 200px;
-}
-
-.container-camisetas .camisetas :hover {
-  border: solid 2px black;
-  border-radius: 5%;
 }
 
 .container-camisetas img {
