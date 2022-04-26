@@ -4,11 +4,7 @@
     grid-template-rows: auto;
     margin: 5%;
 
-    :hover {
-    border: solid 2px rgb(148, 148, 148);
-    border-radius: 5%;
 
-    }
 
     .camisetas {
         text-align: center;
@@ -16,7 +12,6 @@
         margin-bottom: 10%;
         height: 200px;
         width: 200px;
-
         
     }
 
@@ -24,5 +19,18 @@
         width: 80%;
         height: 80%;
     }
+    h3{
+        font-size: 18px;
+        font-weight: bold;
+    }
+    h4{
+        font-size: 18px;
+    }
+}
+
+.camisetas:hover {
+
+    border: solid 2px rgb(148, 148, 148);
+    border-radius: 5%;
 
 }

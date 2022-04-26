@@ -211,11 +211,6 @@ body {
   margin: 5%;
 }
 
-.container-camisetas :hover {
-  border: solid 2px #949494;
-  border-radius: 5%;
-}
-
 .container-camisetas .camisetas {
   text-align: center;
   margin: 8%;
@@ -227,6 +222,20 @@ body {
 .container-camisetas img {
   width: 80%;
   height: 80%;
+}
+
+.container-camisetas h3 {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.container-camisetas h4 {
+  font-size: 18px;
+}
+
+.camisetas:hover {
+  border: solid 2px #949494;
+  border-radius: 5%;
 }
 
 @media screen and (max-width: 768px) {
