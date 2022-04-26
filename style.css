@@ -236,6 +236,10 @@ body {
 .camisetas:hover {
   border: solid 2px #949494;
   border-radius: 5%;
+  -webkit-transition-timing-function: linear;
+          transition-timing-function: linear;
+  -webkit-transition-duration: .5s;
+          transition-duration: .5s;
 }
 
 @media screen and (max-width: 768px) {
