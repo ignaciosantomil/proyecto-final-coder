@@ -160,6 +160,7 @@ body {
       justify-content: space-around;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  margin-bottom: 5%;
 }
 
 .ofertas img {
@@ -186,10 +187,8 @@ body {
 .oferta1 :hover {
   border: solid 1px #949494;
   border-radius: 5%;
-  -webkit-transition-timing-function: linear;
-          transition-timing-function: linear;
-  -webkit-transition-duration: .5s;
-          transition-duration: .5s;
+  -webkit-transition: border .5s;
+  transition: border .5s;
 }
 
 .title {
@@ -236,6 +235,7 @@ body {
   height: 200px;
   width: 200px;
   padding: 3%;
+  border: 5%;
 }
 
 .container-camisetas img {
@@ -253,12 +253,10 @@ body {
 }
 
 .camisetas:hover {
-  border: solid 2px #949494;
+  border: solid 1px #949494;
   border-radius: 5%;
-  -webkit-transition-timing-function: linear;
-          transition-timing-function: linear;
-  -webkit-transition-duration: .5s;
-          transition-duration: .5s;
+  -webkit-transition: border .5s;
+  transition: border .5s;
 }
 
 @media screen and (max-width: 768px) {

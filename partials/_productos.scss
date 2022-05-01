@@ -13,6 +13,7 @@
         height: 200px;
         width: 200px;
         padding: 3%;
+        border: 5%;
     }
 
     img {
@@ -27,11 +28,10 @@
         font-size: 18px;
     }
 }
-
 .camisetas:hover {
 
-    border: solid 2px rgb(148, 148, 148);
+    border: solid 1px rgb(148, 148, 148);
     border-radius: 5%;
-    transition-timing-function: linear;
-    transition-duration: .5s;
+    transition:border .5s;
 }
+
