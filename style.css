@@ -178,13 +178,17 @@ body {
 .ofertas h3 {
   font-size: 18px;
   font-weight: bold;
+  padding: 0%;
+  margin: 0%;
 }
 
 .ofertas h4 {
   font-size: 18px;
+  padding: 0%;
+  margin: 0%;
 }
 
-.oferta1 :hover {
+.oferta1:hover {
   border: solid 1px #949494;
   border-radius: 5%;
   -webkit-transition: border .5s;
